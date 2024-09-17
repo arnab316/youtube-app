@@ -1,0 +1,38 @@
+{
+  "name": "youtube-app",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "start": "parcel  index.html"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "@faker-js/faker": "^8.1.0",
+    "@reduxjs/toolkit": "^1.9.5",
+    "@types/react-router-dom": "^5.3.3",
+    "axios": "^1.5.1",
+    "classnames": "^2.3.2",
+    "module-alias": "^2.2.3",
+    "parcel": "^2.9.3",
+    "react": "^18.2.0",
+    "react-dom": "^18.2.0",
+    "react-icons": "^4.10.1",
+    "react-redux": "^8.1.2",
+    "react-router-dom": "^6.16.0"
+  },
+  "devDependencies": {
+    "buffer": "^6.0.3",
+    "postcss": "^8.4.29",
+    "process": "^0.11.10",
+    "tailwindcss": "^3.3.3"
+  },
+  "_moduleAliases": {
+    "@src": "./node_modules/ask-cli/lib",
+    "@root": "./node_modules/ask-cli",
+    "@test": "./node_modules/ask-cli/test"
+  }
+}
